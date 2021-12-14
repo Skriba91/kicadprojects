@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name myethlibopen)(type Legacy)(uri F:/Projektek/kicadprojects/Ethernet/myethlibopen.lib)(options "")(descr ""))
+)
