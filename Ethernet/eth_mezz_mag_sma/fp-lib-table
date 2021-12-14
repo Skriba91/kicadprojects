@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name myfootprints)(type KiCad)(uri F:/Projektek/privateprojects/ethmeasurement/myfootprints.pretty)(options "")(descr ""))
+  (lib (name myfootprintlib)(type KiCad)(uri F:/Projektek/kicadprojects/Ethernet/eth_mezz_sma/myfootprintlib.pretty)(options "")(descr ""))
+)
