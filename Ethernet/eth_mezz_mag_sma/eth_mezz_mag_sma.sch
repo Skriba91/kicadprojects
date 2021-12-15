@@ -82,34 +82,34 @@ $EndComp
 $Comp
 L Device:R R3
 U 1 1 61BAD53E
-P 6275 4975
-F 0 "R3" H 6345 5021 50  0000 L CNN
-F 1 "75R" H 6345 4930 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6205 4975 50  0001 C CNN
-F 3 "~" H 6275 4975 50  0001 C CNN
-	1    6275 4975
+P 6275 5325
+F 0 "R3" H 6345 5371 50  0000 L CNN
+F 1 "75R" H 6345 5280 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6205 5325 50  0001 C CNN
+F 3 "~" H 6275 5325 50  0001 C CNN
+	1    6275 5325
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 61BADB8B
-P 6600 4975
-F 0 "R4" H 6670 5021 50  0000 L CNN
-F 1 "75R" H 6670 4930 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6530 4975 50  0001 C CNN
-F 3 "~" H 6600 4975 50  0001 C CNN
-	1    6600 4975
+P 6600 5325
+F 0 "R4" H 6670 5371 50  0000 L CNN
+F 1 "75R" H 6670 5280 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6530 5325 50  0001 C CNN
+F 3 "~" H 6600 5325 50  0001 C CNN
+	1    6600 5325
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C3
 U 1 1 61BAE2C0
-P 6450 5450
-F 0 "C3" H 6565 5496 50  0000 L CNN
-F 1 "1n / 2000V" H 6565 5405 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6488 5300 50  0001 C CNN
-F 3 "~" H 6450 5450 50  0001 C CNN
-	1    6450 5450
+P 6450 5800
+F 0 "C3" H 6565 5846 50  0000 L CNN
+F 1 "1n / 2000V" H 6565 5755 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6488 5650 50  0001 C CNN
+F 3 "~" H 6450 5800 50  0001 C CNN
+	1    6450 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -118,7 +118,7 @@ U 1 1 61BAEE3A
 P 4475 4175
 F 0 "C1" H 4590 4221 50  0000 L CNN
 F 1 "10n" H 4590 4130 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4513 4025 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4513 4025 50  0001 C CNN
 F 3 "~" H 4475 4175 50  0001 C CNN
 	1    4475 4175
 	1    0    0    -1  
@@ -129,35 +129,11 @@ U 1 1 61BAF45D
 P 4825 4175
 F 0 "C2" H 4940 4221 50  0000 L CNN
 F 1 "10n" H 4940 4130 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4863 4025 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4863 4025 50  0001 C CNN
 F 3 "~" H 4825 4175 50  0001 C CNN
 	1    4825 4175
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2000 2750 4775 2750
-Wire Wire Line
-	4775 2750 4775 2775
-Wire Wire Line
-	4775 2775 4975 2775
-Wire Wire Line
-	2000 2850 4775 2850
-Wire Wire Line
-	4775 2850 4775 2975
-Wire Wire Line
-	4775 2975 4975 2975
-Wire Wire Line
-	2000 2950 4700 2950
-Wire Wire Line
-	4700 2950 4700 3175
-Wire Wire Line
-	4700 3175 4975 3175
-Wire Wire Line
-	2000 3250 4375 3250
-Wire Wire Line
-	4375 3250 4375 3375
-Wire Wire Line
-	4375 3375 4975 3375
 Wire Wire Line
 	5775 2775 6125 2775
 Wire Wire Line
@@ -178,37 +154,6 @@ Wire Wire Line
 	7425 3375 7425 4500
 Wire Wire Line
 	7425 4500 8400 4500
-Wire Wire Line
-	4975 3275 4825 3275
-Wire Wire Line
-	4825 3275 4825 4025
-Wire Wire Line
-	4975 2875 4475 2875
-Wire Wire Line
-	4475 2875 4475 4025
-$Comp
-L Device:R R1
-U 1 1 61BB773B
-P 2400 4350
-F 0 "R1" H 2470 4396 50  0000 L CNN
-F 1 "75R" H 2470 4305 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2330 4350 50  0001 C CNN
-F 3 "~" H 2400 4350 50  0001 C CNN
-	1    2400 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 3050 2100 3050
-Wire Wire Line
-	2100 3050 2100 3100
-Wire Wire Line
-	2100 3150 2000 3150
-Wire Wire Line
-	2000 3350 2100 3350
-Wire Wire Line
-	2100 3350 2100 3400
-Wire Wire Line
-	2100 3450 2000 3450
 $Comp
 L power:GND #PWR01
 U 1 1 61BB909F
@@ -222,55 +167,6 @@ F 3 "" H 2100 3725 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2000 3550 2100 3550
-Wire Wire Line
-	2100 3550 2100 3725
-Wire Wire Line
-	2400 4200 2400 3400
-Wire Wire Line
-	2400 3400 2100 3400
-Connection ~ 2100 3400
-Wire Wire Line
-	2100 3400 2100 3450
-$Comp
-L Device:R R2
-U 1 1 61BBA3B7
-P 2675 4350
-F 0 "R2" H 2745 4396 50  0000 L CNN
-F 1 "75R" H 2745 4305 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2605 4350 50  0001 C CNN
-F 3 "~" H 2675 4350 50  0001 C CNN
-	1    2675 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2675 4200 2675 3100
-Wire Wire Line
-	2675 3100 2100 3100
-Connection ~ 2100 3100
-Wire Wire Line
-	2100 3100 2100 3150
-$Comp
-L power:GND #PWR02
-U 1 1 61BBB0D3
-P 2550 4625
-F 0 "#PWR02" H 2550 4375 50  0001 C CNN
-F 1 "GND" H 2555 4452 50  0000 C CNN
-F 2 "" H 2550 4625 50  0001 C CNN
-F 3 "" H 2550 4625 50  0001 C CNN
-	1    2550 4625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 4500 2400 4550
-Wire Wire Line
-	2400 4550 2550 4550
-Wire Wire Line
-	2675 4550 2675 4500
-Connection ~ 2550 4550
-Wire Wire Line
-	2550 4550 2675 4550
-Wire Wire Line
-	2550 4550 2550 4625
 $Comp
 L power:GND #PWR03
 U 1 1 61BBD68F
@@ -296,35 +192,35 @@ Wire Wire Line
 Wire Wire Line
 	5775 2875 6600 2875
 Wire Wire Line
-	6600 2875 6600 4825
+	6600 2875 6600 4550
 Wire Wire Line
 	5775 3275 6275 3275
 Wire Wire Line
-	6275 3275 6275 4825
+	6275 3275 6275 4875
 Wire Wire Line
-	6275 5125 6275 5200
+	6275 5475 6275 5550
 Wire Wire Line
-	6275 5200 6450 5200
+	6275 5550 6450 5550
 Wire Wire Line
-	6600 5200 6600 5125
+	6600 5550 6600 5475
 Wire Wire Line
-	6450 5300 6450 5200
-Connection ~ 6450 5200
+	6450 5650 6450 5550
+Connection ~ 6450 5550
 Wire Wire Line
-	6450 5200 6600 5200
+	6450 5550 6600 5550
 $Comp
 L power:GND #PWR04
 U 1 1 61BC3E53
-P 6450 5675
-F 0 "#PWR04" H 6450 5425 50  0001 C CNN
-F 1 "GND" H 6455 5502 50  0000 C CNN
-F 2 "" H 6450 5675 50  0001 C CNN
-F 3 "" H 6450 5675 50  0001 C CNN
-	1    6450 5675
+P 6450 6025
+F 0 "#PWR04" H 6450 5775 50  0001 C CNN
+F 1 "GND" H 6455 5852 50  0000 C CNN
+F 2 "" H 6450 6025 50  0001 C CNN
+F 3 "" H 6450 6025 50  0001 C CNN
+	1    6450 6025
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 5600 6450 5675
+	6450 5950 6450 6025
 $Comp
 L power:GND #PWR07
 U 1 1 61BC541F
@@ -377,20 +273,97 @@ Wire Wire Line
 	8600 4100 8600 4175
 Wire Wire Line
 	8600 4700 8600 4775
-Text Label 3000 2750 0    50   ~ 0
-TX+in
-Text Label 3000 2850 0    50   ~ 0
-TX-in
-Text Label 3000 2950 0    50   ~ 0
-RX+in
-Text Label 3025 3250 0    50   ~ 0
-RX-in
+Text Label 2725 2850 0    50   ~ 0
+TXin+
+Text Label 2725 3050 0    50   ~ 0
+TXin-
+Text Label 2725 3250 0    50   ~ 0
+RXin+
+Text Label 2725 3450 0    50   ~ 0
+RXin-
 Text Label 6675 2050 0    50   ~ 0
-TX+out
+TXout+
 Text Label 6775 2975 0    50   ~ 0
-TX-out
+TXout-
 Text Label 6850 3175 0    50   ~ 0
-RX+out
+RXout+
 Text Label 6775 3375 0    50   ~ 0
-RX-out
+RXout-
+Wire Wire Line
+	2000 2850 4625 2850
+Wire Wire Line
+	4625 2850 4625 2775
+Wire Wire Line
+	4625 2775 4975 2775
+Wire Wire Line
+	2000 3050 4925 3050
+Wire Wire Line
+	4925 3050 4925 2975
+Wire Wire Line
+	4925 2975 4975 2975
+Wire Wire Line
+	2000 3250 4625 3250
+Wire Wire Line
+	4625 3250 4625 3175
+Wire Wire Line
+	4625 3175 4975 3175
+Wire Wire Line
+	2000 3450 4925 3450
+Wire Wire Line
+	4925 3450 4925 3375
+Wire Wire Line
+	4925 3375 4975 3375
+Wire Wire Line
+	4975 3275 4825 3275
+Wire Wire Line
+	4825 3275 4825 4025
+Wire Wire Line
+	4975 2875 4475 2875
+Wire Wire Line
+	4475 2875 4475 4025
+Wire Wire Line
+	2000 2750 2100 2750
+Wire Wire Line
+	2100 2750 2100 2950
+Connection ~ 2100 3550
+Wire Wire Line
+	2100 3550 2100 3725
+Wire Wire Line
+	2000 2950 2100 2950
+Connection ~ 2100 2950
+Wire Wire Line
+	2100 2950 2100 3150
+Wire Wire Line
+	2000 3150 2100 3150
+Connection ~ 2100 3150
+Wire Wire Line
+	2100 3150 2100 3350
+Wire Wire Line
+	2000 3350 2100 3350
+Connection ~ 2100 3350
+Wire Wire Line
+	2100 3350 2100 3550
+$Comp
+L Connector:Conn_Coaxial J6
+U 1 1 61BA50FC
+P 7075 4550
+F 0 "J6" H 7175 4525 50  0000 L CNN
+F 1 "Conn_Coaxial" H 7175 4434 50  0000 L CNN
+F 2 "Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical" H 7075 4550 50  0001 C CNN
+F 3 " ~" H 7075 4550 50  0001 C CNN
+	1    7075 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6875 4550 6600 4550
+Connection ~ 6600 4550
+Wire Wire Line
+	6600 4550 6600 5175
+Wire Wire Line
+	7075 4750 7075 4875
+Wire Wire Line
+	7075 4875 6275 4875
+Connection ~ 6275 4875
+Wire Wire Line
+	6275 4875 6275 5175
 $EndSCHEMATC
