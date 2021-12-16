@@ -1,0 +1,251 @@
+Cmp-Mod V01 Created by PcbNew   date = 2021. 12. 16. 18:29:41
+
+BeginCmp
+TimeStamp = 61BBE162
+Path = /61BA098E
+Reference = IC1;
+ValeurCmp = KSZ8041MLL;
+IdModule  = Package_QFP:LQFP-48_7x7mm_P0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBE130
+Path = /61FC5EC1
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBE0F0
+Path = /61D26B1D
+Reference = FB1;
+ValeurCmp = 100-200R_at100MHz;
+IdModule  = Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBE018
+Path = /61BC84B4
+Reference = J1;
+ValeurCmp = Conn_02x12_Odd_Even;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDFF8
+Path = /61D27FBD
+Reference = FB3;
+ValeurCmp = 100-200R_at100MHz;
+IdModule  = Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDFE0
+Path = /61F56540
+Reference = D2;
+ValeurCmp = D;
+IdModule  = Diode_SMD:D_MiniMELF_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDFD0
+Path = /61E20315
+Reference = C14;
+ValeurCmp = 100n;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDFAE
+Path = /61D2840B
+Reference = FB2;
+ValeurCmp = 100-200R_at100MHz;
+IdModule  = Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDF86
+Path = /61F5472B
+Reference = D1;
+ValeurCmp = D;
+IdModule  = Diode_SMD:D_MiniMELF_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDF66
+Path = /61E18811
+Reference = C10;
+ValeurCmp = 100n;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDF56
+Path = /61DE7CDC
+Reference = C7;
+ValeurCmp = 100n;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDF36
+Path = /61E1FE11
+Reference = C12;
+ValeurCmp = 100n;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDF16
+Path = /61E9B928
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDF06
+Path = /61D36FFA
+Reference = C2;
+ValeurCmp = 22u;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDEF6
+Path = /61DCEAFF
+Reference = C8;
+ValeurCmp = 1u;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDEE6
+Path = /61DA0ABA
+Reference = C6;
+ValeurCmp = 100n;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDED6
+Path = /61DA04CF
+Reference = C5;
+ValeurCmp = 22u;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDEC6
+Path = /61DE77CB
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDEB6
+Path = /61D396B0
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDEA6
+Path = /61DCF384
+Reference = C9;
+ValeurCmp = 100n;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDE6E
+Path = /61F5774D
+Reference = C17;
+ValeurCmp = 10u;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDE5E
+Path = /621280BF
+Reference = R10;
+ValeurCmp = 49R9;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDE4E
+Path = /61F58A80
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDE3E
+Path = /61FC8C2F
+Reference = R8;
+ValeurCmp = 1k3;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDE2E
+Path = /6213C979
+Reference = C20;
+ValeurCmp = 100n;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDE1E
+Path = /621293A3
+Reference = R13;
+ValeurCmp = 49R9;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDE0E
+Path = /6212872A
+Reference = R11;
+ValeurCmp = 49R9;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDDFE
+Path = /62128E1B
+Reference = R12;
+ValeurCmp = 49R9;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDDEE
+Path = /6213ADA0
+Reference = C19;
+ValeurCmp = 100n;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDDCE
+Path = /61FF5D8D
+Reference = R9;
+ValeurCmp = 6k49;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61BBDDB7
+Path = /61C9FEFE
+Reference = X1;
+ValeurCmp = ECS-2520MV-xxx-xx;
+IdModule  = myfootprintlib:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm_HANDSOLD;
+EndCmp
+
+EndListe

@@ -366,7 +366,7 @@ L Device:C C13
 U 1 1 61CF61C5
 P 5875 6250
 F 0 "C13" H 5990 6296 50  0000 L CNN
-F 1 "10n" H 5990 6205 50  0000 L CNN
+F 1 "10u" H 5990 6205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5913 6100 50  0001 C CNN
 F 3 "~" H 5875 6250 50  0001 C CNN
 	1    5875 6250
@@ -377,7 +377,7 @@ L Device:C C11
 U 1 1 61CF6960
 P 5500 6250
 F 0 "C11" H 5615 6296 50  0000 L CNN
-F 1 "10n" H 5615 6205 50  0000 L CNN
+F 1 "10u" H 5615 6205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5538 6100 50  0001 C CNN
 F 3 "~" H 5500 6250 50  0001 C CNN
 	1    5500 6250
@@ -1386,4 +1386,52 @@ Text Label 10125 5175 0    50   ~ 0
 RX+
 Text Label 10125 5275 0    50   ~ 0
 RX-
+Text Label 5500 3525 0    50   ~ 0
+A3V3
+Text Label 6175 4625 0    50   ~ 0
+A3V3
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61C0230F
+P 7850 925
+F 0 "H1" H 7950 971 50  0000 L CNN
+F 1 "MountingHole" H 7950 880 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7850 925 50  0001 C CNN
+F 3 "~" H 7850 925 50  0001 C CNN
+	1    7850 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61C03247
+P 7850 1125
+F 0 "H2" H 7950 1171 50  0000 L CNN
+F 1 "MountingHole" H 7950 1080 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7850 1125 50  0001 C CNN
+F 3 "~" H 7850 1125 50  0001 C CNN
+	1    7850 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61C035D9
+P 7850 1325
+F 0 "H3" H 7950 1371 50  0000 L CNN
+F 1 "MountingHole" H 7950 1280 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7850 1325 50  0001 C CNN
+F 3 "~" H 7850 1325 50  0001 C CNN
+	1    7850 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61C03782
+P 7850 1525
+F 0 "H4" H 7950 1571 50  0000 L CNN
+F 1 "MountingHole" H 7950 1480 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7850 1525 50  0001 C CNN
+F 3 "~" H 7850 1525 50  0001 C CNN
+	1    7850 1525
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
