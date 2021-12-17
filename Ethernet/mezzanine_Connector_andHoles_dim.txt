@@ -1,0 +1,11 @@
+Upper mounting hole 103,096x 63,472y
+Lower mounting hole
+
+Mezzanine: 109,4968x 76,3752y
+
+deltaX: 6,4008
+deltaY: 12,9032
+
+-----------------------------------------------------------
+
+Mezzazine: 158,546x 104,7236y
