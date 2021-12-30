@@ -1,0 +1,1 @@
+ - Incorrect fottprint of ARJM11D7-114-AB-EW2 changed. The led pins were to further from the holes thus the RJ45 did not fit.
