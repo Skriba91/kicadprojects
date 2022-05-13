@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name myethlibopen)(type Legacy)(uri F:/Projektek/kicadprojects/Ethernet/myethlibopen.lib)(options "")(descr ""))
+  (lib (name "myethlibopen")(type "Legacy")(uri "F:/Projektek/kicadprojects/Ethernet/myethlibopen.lib")(options "")(descr ""))
+  (lib (name "eth_mezz_mag_sma-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/eth_mezz_mag_sma-eagle-import.kicad_sym")(options "")(descr ""))
 )
