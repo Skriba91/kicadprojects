@@ -24,4 +24,5 @@ fp-info-cache
 *.xml
 *.csv
 
+# Archives
 *.zip
